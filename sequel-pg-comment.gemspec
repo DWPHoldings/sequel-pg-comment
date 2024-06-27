@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
 	s.extra_rdoc_files = ["README.md"]
 	s.files = `git ls-files -z`.split("\0")
 
-	s.add_runtime_dependency "git-version-bump", "~> 0.10"
 	s.add_runtime_dependency "sequel"
 
 	s.add_development_dependency 'bundler'
